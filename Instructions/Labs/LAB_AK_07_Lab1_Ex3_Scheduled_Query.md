@@ -72,13 +72,16 @@ In this task, you will create a scheduled query and connect it to the Teams chan
 
 1. For the *Automation rule name*, enter **Tier 2**.
 
+1. For the *Trigger*, choose **When incident is created**
+   
 1. For the *Actions*, select **Assign owner**.
 
 1. Then select **Assign to me**. Then select **Apply**.
 
-1. Scroll down and select the **Alert automation (classic)** bar.
+1. Then click *+ Add Action*, and choose **Run playbook**
 
 1. From the drop-down menu, select the playbook **PostMessageTeams-OnAlert** you created in the previous exercise.
+    >**Note:** Check any message for permissions, and if needed press *Manage permissions* link and choose the **RG-Playbooks** resource group to apply the required permissions.
 
 1. Select the **Next: Review >** button.
   
